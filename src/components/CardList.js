@@ -3,6 +3,7 @@ import Card from './Card';
 
 
 const CardList = ({ robots }) => {
+  console.log('CardList')
   const cardArrays = robots.map((robot, i) => {
     return  (
       <Card

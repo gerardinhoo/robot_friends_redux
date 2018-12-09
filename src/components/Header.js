@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import CounterButton from './CounterButton';  
+import CounterButton from './CounterButton';  
 
 // How to handle unecessary update on your react app
 class Header extends Component {
@@ -12,7 +12,7 @@ class Header extends Component {
     return (
       <div>
         <h1 className='f1'>RobotFriends</h1>
-        {/* <CounterButton color={'red'} /> */}
+        <CounterButton color={'red'} />
        </div>
     );
   }
